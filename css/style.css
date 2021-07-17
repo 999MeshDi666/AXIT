@@ -371,3 +371,64 @@ ul, li{
     margin-bottom: 24px;
 
 }
+
+/* section6 */
+.section6{
+    padding: 106px 0;
+}
+
+/* section6 text block */
+.sec6_txt_content{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sec6_txt_h1{
+    font-weight: 500;
+    font-size: 2em;
+
+}
+
+.sec6_txt_h1::after{
+    content: " ";
+    width: 64px;
+    height: 2.5px;
+    background-color: #fa974c;
+    margin: 30px auto;
+    display: block;
+}
+.sec6_txt_p{
+    font-size: 13px;
+    color: #86878b;
+}
+
+/* section6 text and icons block */
+.sec6_txt_icon_content{
+    display: flex;
+    text-align: center;
+}
+.sec6_itxt_block{
+    margin: 0 20px;
+}
+.sec6_itxt_h3{
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 100px;
+
+}
+.sec6_h3_icon1{
+    background-image: url(../img/idea.png);
+  
+}
+.sec6_h3_icon2{
+    background-image: url(../img/keyboard.png);
+}
+.sec6_h3_icon3{
+    background-image: url(../img/bolt.png);
+}
+.sec6_itxt_p{
+    font-size: 13px;
+    color: #86878b;
+}
