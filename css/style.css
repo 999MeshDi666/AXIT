@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1,h2{
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 p{
     margin: 0;
@@ -377,18 +377,18 @@ ul, li{
     padding: 106px 0;
 }
 
-/* section6 text block */
-.sec6_txt_content{
+/* any sections text block */
+.any_sec_txt_content{
     text-align: center;
     margin-bottom: 80px;
 }
-.sec6_txt_h1{
+.any_sec_txt_h1{
     font-weight: 500;
     font-size: 2em;
 
 }
 
-.sec6_txt_h1::after{
+.any_sec_txt_h1::after{
     content: " ";
     width: 64px;
     height: 2.5px;
@@ -396,7 +396,7 @@ ul, li{
     margin: 30px auto;
     display: block;
 }
-.sec6_txt_p{
+.any_sec_txt_p{
     font-size: 13px;
     color: #86878b;
 }
@@ -432,3 +432,98 @@ ul, li{
     font-size: 13px;
     color: #86878b;
 }
+
+/* section 7 */
+
+.section7{
+    background-color: #f5f5f5;
+    padding: 106px 0 94px 0;
+}
+
+.sec7_cards_content{
+    display: flex;
+    justify-content: space-between;
+}
+.sec7_card_links{
+    text-decoration: none;
+}
+.sec7_cards{
+    margin-top: 35px;
+    /* cursor: pointer; */
+}
+.sec7_card2{
+    margin-top: 0px;
+}
+.first_card_sec{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    transition: 0.6s;
+}
+.first_card_sec:hover{
+    background-color: #444444;
+}
+.first_card_sec::after{
+    content: " ";
+    width: 341px;
+    height: 6px;
+    background-color: #fa974c;
+    display: block;
+
+}
+
+.second_card::after{
+    content: "OUR MOST POPULAR";
+    width: 354px;
+    height: 18px;
+    padding: 12px 0;
+}
+
+.third_card::after{
+    width: 362px;
+}
+
+
+.sec7_card_h3{
+    border-bottom: 1px #fff solid;
+    padding: 22px 0;
+}
+.sec7_card_price{
+    display: inline-flex;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 28px 124px;
+}
+.sec7_cprice_curr{
+    margin-top: 43px;
+    font-size: 30px;
+}
+.sec7_cprice_sum{
+    font-size: 80px;
+}
+
+
+.sec7_card_p{
+    font-size: 14px;
+    font-style: italic;
+    color: #a7a7a7;
+    padding-bottom: 20px;
+}
+.second_card_sec{
+    color: #a9aaac;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+    
+}
+
+.second_card_txt{
+    padding: 14px 0;
+    border-bottom: 2px #f5f5f5 solid;
+    transition: 0.6s;
+}
+
+.second_card_txt:hover{
+    color: #000;
+}
+
