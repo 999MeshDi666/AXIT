@@ -283,6 +283,7 @@ ul, li{
     border: 0;
     border-radius: 5px;
     padding: 15px 26px;
+    cursor: pointer;
 }
 
 .sec3_slider_txt_btn:active{
@@ -527,3 +528,140 @@ ul, li{
     color: #000;
 }
 
+
+/* section8 */
+
+.section8{
+    padding: 106px 0 100px 0;
+}
+.sec8_comments_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec8_comment_clouds{
+    margin-bottom: 9px;
+}
+.sec8_comment_txt{
+    font-size: 12.3px;
+    color: #97979b;
+    width: 247px;
+    height: 79px;
+    background-image: url(../img/txt_cloud.png);
+    background-repeat: no-repeat;
+    background-position: 0px -38px;
+    background-size: cover;
+    padding: 20px;
+}
+
+.sec8_comment_person{
+    display: flex;
+}
+.sec8_cperson_txt{
+    margin: 15px;
+}
+
+/* section9 */
+.section9{
+    padding: 72px 0 60px 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -172px;
+    position: relative;
+    z-index: 1;
+}
+
+.section9::after{
+    background-color: #000;
+    content: " ";
+    width: 1519px;
+    height: 417px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    opacity: 0.4;
+    z-index: 2;
+}
+
+.sec9_content_block{
+    position: relative;
+    z-index: 3;
+
+}
+.sec9_txt_content{
+    margin: 40px 0;
+}
+
+.sec9_txt_h1{
+    color: #fff;
+}
+.sec9_txt_h1::after{
+    background-color: #fff;
+
+}
+.sec9_txt_p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: rgb(228, 222, 222);
+}
+
+.sec9_download_btn{
+    margin-top: 35px;
+    padding: 12px 38px;
+}
+
+/* section10 */
+
+.section10{
+    padding: 108px 0 80px 0;
+}
+
+
+.sec10_form_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.sec10_input_form{
+    display: flex;
+    flex-direction: column;
+
+}
+.sec10_inputs{
+    padding: 8px 14px;
+    margin: 9.5px;
+    border: 0;
+    border-bottom: 1px #d6d6d6 solid;
+    width: 500px;
+}
+
+.sec10_form_focus:focus{
+    outline: none;
+    border-bottom: 1px #6e6e6e solid;
+}
+.sec10_textarea{
+    border: 0;
+    border-bottom: 1px #d6d6d6 solid;
+    font-family: 'Open sans', sans-serif;
+    resize: none;
+    padding: 8px 14px;
+}
+
+.sec10_form_btn{
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff9b51;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 22px;
+    display: inline-block;
+    margin-top: 41px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+
+.sec10_form_btn:active{
+    background-color: #f59d5a;
+}
